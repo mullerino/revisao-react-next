@@ -1,0 +1,48 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  font-family: 'Courier New';
+}
+
+.container h2 {
+  font-size: 28px;
+}
+
+.row {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 8px;
+  gap: 24px;
+}
+
+.row span {
+  font-size: 18px;
+  color: red;
+}
+
+.apostar {
+  margin: 12px 0;
+}
+
+.apostar button {
+  font-family: 'Courier New';
+  width: 140px;
+  height: 40px;
+  background-color: rgb(61, 0, 80);
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.apostar button:hover {
+  background-color: rgba(61, 0, 80, 0.8);
+  transition: all 0.2s ease-in;
+}
