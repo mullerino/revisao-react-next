@@ -19,7 +19,7 @@ const createArrayNumbers = (minNumber, maxNumber) => {
 }
 
 const numbers = () => {
-  const arrayNumbers = createArrayNumbers(1, 5)
+  const arrayNumbers = createArrayNumbers(3, 12)
 
   return (
     <div>

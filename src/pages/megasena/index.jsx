@@ -22,7 +22,7 @@ const megasena = () => {
     return aposta.length !== 0 ?
       aposta.map(dezena => {
         return (
-          <Dezena key={dezena} number={dezena} />
+          <Dezena key={dezena} numero={dezena} />
         )
       }) :
       <span>Ainda não existe uma aposta :/</span>

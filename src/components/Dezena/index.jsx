@@ -8,7 +8,7 @@ const Dezena = ({ numero }) => {
       width: "80px",
       backgroundColor: "#000",
       borderRadius: "100%",
-      color: "#ffffff",
+      color: "#fff",
       fontSize: "32px"
     }}>
       {numero}

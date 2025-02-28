@@ -1,3 +1,5 @@
+// Propriedades são apenas para leitura!
+
 const Titulo = ({ principal, secundario }) => {
   return (
     <>
